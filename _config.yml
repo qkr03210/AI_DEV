@@ -1,0 +1,7 @@
+title: "My Tech AI Blog"
+author: "qkr03210"
+email: "qkr03210@gmail.com"
+description: "미니 PC와 AI로 운영하는 테크 자동화 블로그"
+theme: minima
+plugins:
+  - jekyll-feed
