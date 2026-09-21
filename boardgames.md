@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "🎲 보드게임 & 이슈"
+title: "🎲 보드게임 레이더"
 permalink: /boardgames/
 ---
 
-보드라이프(신작·펀딩·출시 소식) 및 디시인사이드 갤러리(화제의 개념글)의 일일 정리 모음입니다.
+보드라이프(신작·출시·펀딩)와 디시인사이드 부루마불 갤러리(커뮤니티 이슈)의 종합 일일 브리핑입니다.
 
 <ul>
 {% assign bg_posts = site.posts | where_exp: "item", "item.categories contains '보드게임'" %}
@@ -16,6 +16,6 @@ permalink: /boardgames/
     </li>
   {% endfor %}
 {% else %}
-  <p style="color: #777;">아직 등록된 보드게임 소식이 없습니다. (오늘 일일 정리 작업이 완료되면 등록됩니다.)</p>
+  <p style="color: #777;">등록된 보드게임 소식이 없습니다.</p>
 {% endif %}
 </ul>

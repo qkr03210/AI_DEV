@@ -1,7 +1,7 @@
 title: "Mini PC Auto Hub"
 author: "qkr03210"
 email: "qkr03210@gmail.com"
-description: "미니 PC 24시간 자동화 & AI / 커뮤니티 모니터링 허브"
+description: "미니 PC 24시간 자동화 & AI / 보드게임 / 애플 모니터링 허브"
 baseurl: "/AI_DEV"
 url: "https://qkr03210.github.io"
 timezone: Asia/Seoul
@@ -12,5 +12,6 @@ plugins:
 header_pages:
   - ai-news.md
   - boardgames.md
+  - apple.md
   - archive.md
   - about.md
